@@ -25,4 +25,6 @@ Unity Tasks for NCC trial
   * Cue indicates the trial attentional space, if and once it moves saccade to it. If a distractor move, the correct response is to keep fixating
 * Decision Making Task 
   * Very basic task, simply choose your favorite between 4 colored spheres
+* Delayed Saccade Task
+  * Delayed saccade to four possible target locations (testing FEF activity and movement preparation)
 
