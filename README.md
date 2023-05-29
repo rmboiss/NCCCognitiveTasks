@@ -27,4 +27,7 @@ Unity Tasks for NCC trial
   * Very basic task, simply choose your favorite between 4 colored spheres
 * Delayed Saccade Task
   * Delayed saccade to four possible target locations (testing FEF activity and movement preparation)
-
+* BCI Window Cursor Control
+  * This task is designed to move a cursor between targets within a grid of 2, 4 or 16 possible target locations. 
+  * If one target long sequence is selected, the target location can be the origin meaning this is a rest position. 
+  * The task works in 2 modes, 1) fully automated where the cursor is automatically moved from one position to the others adding noise to make it more natural, or 2) using a decoded velocity ( x, y ) received from an lsl stream to control the mouse cursor in the BCI control mode.
