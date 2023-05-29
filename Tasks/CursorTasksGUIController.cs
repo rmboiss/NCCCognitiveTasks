@@ -4,7 +4,9 @@ public class CursorTasksGUIController : BaseGUIController
 {
     // Defines the list of available tasks. 
     public enum TaskTypes { SelectTask, CenterOutTask, WhackAMole, MemoryGuidedSaccade,
-        WisconsinCardSorting, NBackTask, VisualSpatialAttention, DecisionMakingTask, DelayedSaccadeTask }
+        WisconsinCardSorting, NBackTask, VisualSpatialAttention, DecisionMakingTask, DelayedSaccadeTask,
+        BCISelectionTask,
+    }
 
     // Start is called before the first frame update
     protected override void Start()
@@ -52,6 +54,10 @@ public class CursorTasksGUIController : BaseGUIController
             case 8: // Delayed Saccade task
                 typeName = "DSTExperimentController";
                 break;
+            case 9: // BCI Target Selection task
+                typeName = "BCITSTExperimentController";
+                break;
+
             default:
                 typeName = "";
                 break;
